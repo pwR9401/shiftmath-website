@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 | Shift Error</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0B0A0F;
+        }
+    </style>
+</head>
+<body class="text-white antialiased selection:bg-purple-500 selection:text-white min-h-screen flex flex-col justify-between">
+
+    <header class="border-b border-purple-900/20 backdrop-blur-md bg-[#0B0A0F]/80">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="index.html#hero" class="flex items-center space-x-2">
+                <div class="w-8 h-8 bg-purple-600 rounded-lg flex items-center justify-center font-bold text-lg rotate-12 shadow-[0_0_15px_rgba(147,51,234,0.5)]">Δ</div>
+                <span class="text-2xl font-extrabold tracking-tight">shift<span class="text-purple-500">.</span></span>
+            </a>
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-400">
+                <a href="index.html#features" class="hover:text-purple-400 transition">Features</a>
+                <a href="index.html#stats" class="hover:text-purple-400 transition">Metrics</a>
+                <a href="index.html#cta" class="hover:text-purple-400 transition">Get Started</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="relative flex-grow flex items-center justify-center px-6 overflow-hidden">
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-purple-600/10 rounded-full blur-[120px]"></div>
+
+        <div class="max-w-xl mx-auto text-center relative z-10 py-16">
+            <div class="text-7xl md:text-9xl font-extrabold tracking-tight text-purple-500 bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent mb-4">
+                404
+            </div>
+            
+            <h1 class="text-2xl md:text-4xl font-bold tracking-tight mb-4 text-white">
+                Page Not Found<span class="text-purple-500">.</span>
+            </h1>
+            
+            <p class="text-gray-400 text-base md:text-lg mb-10 font-light max-w-md mx-auto">
+                The page you requested either doesn't exist or has been moved
+            </p>
+            
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="/" class="w-full sm:w-auto bg-white text-black font-semibold px-6 py-3 rounded-xl hover:bg-gray-100 transition text-center shadow-lg text-sm">
+                    Go Home
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="border-t border-purple-900/10 bg-[#07060A] py-8 text-center text-xs text-gray-600">
+        <p>&copy; 2026 Shift Math. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
